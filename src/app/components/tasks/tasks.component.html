@@ -1,0 +1,4 @@
+<section>
+    <app-task-form *ngIf='display'></app-task-form>
+    <app-task-item *ngFor='let task of tasks' (delete)='removeTask($event)' [task] ='task'></app-task-item>
+</section>

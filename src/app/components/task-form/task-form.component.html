@@ -1,0 +1,11 @@
+<section>
+  <form class='form-control' (ngSubmit)='onSubmit()'>
+    <label for='task'>Task</label><br>
+    <input type='text' name='task' [(ngModel)]='task' placeholder='What do you want to do'><br>
+    <label for='day'>Day</label><br>
+    <input type='text' name='day' [(ngModel)]='day'  placeholder='Enter the date and time'><br>
+    <label for='reminder' >Remind you</label>
+    <input type='checkbox' class='check' name='reminder' [(ngModel)]='reminder' for=reminder >
+    <input  class='btn' [ngStyle]='{"background-color":"green"}' type='submit' value='create task'>
+  </form>
+</section>

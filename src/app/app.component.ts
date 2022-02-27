@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Eventor';
+  display = false;
+
+  setDisplay(){
+   if(this.display === false){
+    this.display = true;
+   }else{
+     this.display = false;
+   }
+  } 
 }

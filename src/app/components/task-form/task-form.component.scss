@@ -1,0 +1,26 @@
+section{
+    margin-bottom:50px;
+    form{
+        margin-left:35px;
+        input{
+            margin-top:30px;
+            margin-left:10px;
+            padding:10px;
+            width:356px;
+            border:1px gray solid;
+            border-radius:5px;
+        }
+        label{
+            font-weight:bold;
+            position:relative;
+            top:20px;
+            left:10px;
+        }
+        .check{
+            position:relative;
+            bottom:25px;
+            right:75px;
+        }
+        
+    }
+}
